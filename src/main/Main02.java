@@ -24,7 +24,5 @@ public class Pgs181930 {
 			answer = answer1 * answer2;
 		}
 		System.out.println(answer);
-
 	}
-
 }
