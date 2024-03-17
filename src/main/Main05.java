@@ -27,7 +27,5 @@ public class Main05 {
 		}
 		answer = n;
 		System.out.println(answer);
-
 	}
-
 }
