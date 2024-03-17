@@ -1,6 +1,6 @@
 package main;
 
-public class Main01 {
+public class Pgs181928 {
 
 	public static void main(String[] args) {
 
