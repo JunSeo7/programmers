@@ -7,7 +7,6 @@ public class Main04 {
 
 	public static void main(String[] args) {
 		
-		// ArrayList 사용
 		int[] num_list = new int[5];
 
 		num_list[0] = 5;
