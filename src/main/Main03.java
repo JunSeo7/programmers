@@ -26,7 +26,5 @@ public class Main03 {
 			answer = 0;
 		}
 		System.out.println(answer);
-
 	}
-
 }
