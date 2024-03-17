@@ -31,7 +31,5 @@ public class Main04 {
 			}
 		}
 		System.out.println(answer.toString());
-
 	}
-
 }
