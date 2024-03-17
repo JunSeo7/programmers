@@ -29,5 +29,4 @@ public class Main041 {
 		}
 		System.out.println(Arrays.toString(answer));
 	}
-
 }
