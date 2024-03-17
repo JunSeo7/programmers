@@ -28,7 +28,5 @@ public class Pgs181928 {
 		int odds = Integer.parseInt(odd);
 		
 		System.out.println(adds + odds);
-		
 	}
-
 }
