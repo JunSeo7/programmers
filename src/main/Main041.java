@@ -6,7 +6,6 @@ public class Main041 {
 
 	public static void main(String[] args) {
 		
-		// 제출 코드
 		int[] num_list = new int[5];
 
 		num_list[0] = 5;
