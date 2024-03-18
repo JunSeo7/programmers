@@ -31,7 +31,6 @@ public class Main23 {
                 }
             }
         }
-        
         if (y.isEmpty()) {
             answer = new int[]{-1};
         } else {
