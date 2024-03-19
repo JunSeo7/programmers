@@ -16,7 +16,6 @@ public class Main29 {
 		}
 		answer = n;
 		System.out.println(answer);
-		
 
 	}
 
