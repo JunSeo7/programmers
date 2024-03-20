@@ -1,32 +1,24 @@
 package main;
 
-public class Pgs181928 {
+import java.util.Arrays;
+import java.util.Scanner;
 
+public class Main01 {
+
+	// 프로그래머스 LV1 - 12954
 	public static void main(String[] args) {
 
-		int[] num_list = new int[5];
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int n = sc.nextInt();
 
-		String add = "";
-		String odd = "";
+		long[] answer = new long[n];
 
-		int ansewr;
-		num_list[0] = 3;
-		num_list[1] = 4;
-		num_list[2] = 5;
-		num_list[3] = 2;
-		num_list[4] = 1;
-
-		for (int i = 0; i < num_list.length; i++) {
-			if (num_list[i] % 2 == 0) {
-				add += Integer.toString(num_list[i]);
-			} else if (num_list[i] % 2 == 1 || num_list[i] == 1) {
-				odd += Integer.toString(num_list[i]);
-			}
+		for (int i = 0; i < answer.length; i++) {
+			answer[i] = (long) x * (1 + i);
 		}
-		
-		int adds = Integer.parseInt(add);
-		int odds = Integer.parseInt(odd);
-		
-		System.out.println(adds + odds);
+		System.out.println(Arrays.toString(answer));
+
 	}
+
 }
