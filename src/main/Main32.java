@@ -1,27 +1,19 @@
 package main;
 
-import java.util.Scanner;
+public class Main32 {
 
-public class PgsLv002 {
+	public String solution(String myString) {
+		String answer = "";
+
+		answer = myString.toUpperCase();
+		System.out.println(answer);
+		return answer;
+	}
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String ineq = sc.nextLine();
-		String eq = sc.nextLine();
-		int n = sc.nextInt();
-		int m = sc.nextInt();
-		int answer;
+		Main32 m = new Main32();
+		m.solution("aBcDeFg");
 
-		if (ineq.equals(">") && eq.equals("=")) {
-			answer = n >= m ? 1 : 0;
-		} else if (ineq.equals("<") && eq.equals("=")) {
-			answer = n <= m ? 1 : 0;
-		} else if (ineq.equals(">") && eq.equals("!")) {
-			answer = n > m ? 1 : 0;
-		} else {
-			answer = n < m ? 1 : 0;
-		}
-		System.out.println(answer);
 	}
 
 }
